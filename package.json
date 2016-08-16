@@ -1,0 +1,31 @@
+{
+  "name": "laravel-elixir-handlebars",
+  "version": "1.0.0",
+  "description": "Laravel Elixir Handlebars Extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swanty/laravel-elixir-handlebars.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "handlebars",
+    "gulp"
+  ],
+  "author": "Swanty <swanty007@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Swanty/laravel-elixir-handlebars/issues"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-wrap": "^0.13.0"
+  }
+}
