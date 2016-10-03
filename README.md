@@ -38,7 +38,7 @@ elixir(function (mix) {
         ], 'MyApp.templates', './public/js/templates.js')
         .scripts([
             // ...
-            './node_modules/laravel-elixir-handlebars/node_modules/gulp-handlebars/node_modules/handlebars/dist/handlebars.runtime.min.js',
+            './node_modules/handlebars/dist/handlebars.runtime.min.js',
             './public/js/templates.js',
             // ...
         ], './public/js/scripts.js');
@@ -56,6 +56,8 @@ console.log(html);
 ## Contributions
 
 Please submit all pull requests to [develop](https://github.com/Swanty/laravel-elixir-handlebars/tree/develop) branch.
+
+- **Create feature branches** - I won't pull from your master branch.
 
 ## Support
 
