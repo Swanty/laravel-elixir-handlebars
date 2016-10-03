@@ -9,7 +9,7 @@ Compile your .hbs (Handlebars) templates with Laravel Elixir
 ## Install
 
 ```
-npm install github:swanty/laravel-elixir-handlebars#v1.0.0
+npm install github:swanty/laravel-elixir-handlebars#v1.0.1
 ```
 
 ## Usage
