@@ -47,6 +47,6 @@ Elixir.extend('handlebars', function (templates, namespace, output, baseDir) {
  */
 var prepGulpPaths = function(src, baseDir, output) {
     return new Elixir.GulpPaths()
-        .src(src, baseDir || 'resources/views/')
+        .src(src, baseDir || config.get('assets.js.folder') + '/templates/')
         .output(output || config.get('public.js.outputFolder'), 'templates.js');
 };

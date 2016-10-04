@@ -14,7 +14,7 @@ npm install github:swanty/laravel-elixir-handlebars#v1.0.1
 
 ## Usage
 
-File: ./resources/views/test/sample.hbs
+File: ./resources/assets/js/templates/sample.hbs
 ```html
 <div class="entry">
   <h1>{{title}}</h1>
@@ -34,7 +34,8 @@ elixir(function (mix) {
  
     mix
         .handlebars([
-            './resources/views/test/sample.hbs'
+            // Base directory is ./resources/assets/js/templates/
+            '*.hbs'
         ], 'MyApp.templates', './public/js/templates.js')
         .scripts([
             // ...
